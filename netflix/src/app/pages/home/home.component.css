@@ -1,0 +1,48 @@
+.background{
+    background: linear-gradient(hsla(0, 0%, 0%, 0.8), hsla(0, 0%, 0%, 0.4), hsla(0, 0%, 0%, 0.8)), url("../../../assets/image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 78vh;
+    width: auto;
+    max-width: 100%;
+}
+
+.parte1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: center;
+}
+
+.parte1 h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+.parte1 h2{
+    font-size: 26px;
+    font-weight: 500;
+    margin: 25px 0px 30px;
+}
+
+.parte1 h3{
+    font-size: 18.5px;
+    font-weight: 500;
+}
+
+.input-group {
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.input {
+    margin-left: 160px;
+    height: 60px;
+    width: 450px;
+}
+
+.btn h2{
+    font-size: 26px;
+    font-weight: 500;
+    margin: 7px 14px;
+}
