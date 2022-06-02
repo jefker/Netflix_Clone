@@ -8,7 +8,7 @@ import { IFilmes } from '../interfaces/i-filmes';
 })
 export class FilmeService {
 
-  api = `${environment.api}/filmes`;
+  api = `${environment.api}/filme`;
 
   constructor(private http: HttpClient) { }
 

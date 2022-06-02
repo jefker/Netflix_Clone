@@ -1,9 +1,9 @@
 import { IGenero } from "./i-genero"
 
-export interface IFilmes {
+export interface ISerie {
     id?: number
     titulo: string
-    diretor: string
     anoLancamento: number
+    tmeporadas: number
     genero: IGenero
 }

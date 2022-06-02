@@ -1,9 +1,9 @@
-.container{
+/* .container{
     max-width: 1920px;
     position: fixed;
     height: 45px;
     padding: 0px 40px;
-}
+} */
 
 .navbar-brand img{
     height: 2rem;
@@ -13,8 +13,7 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
-    font-weight: bold;
-    
+    font-weight: bold;    
 }
 
 .form-inline a:hover {
@@ -24,4 +23,18 @@
 
 .btn{
     padding: 5px 20px;
+}
+
+.btn.btn-primary,
+.btn.btn-primary:focus,
+.btn.btn-primary:active,
+.btn.btn-primary.active {
+  color: #ffffff;
+  background-color: red;
+  border-color: red;
+}
+
+.btn.btn-primary:hover {
+    background-color: rgb(214, 0, 0);
+    border-color: rgb(214, 0, 0);
 }

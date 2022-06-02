@@ -11,6 +11,12 @@ import { ButtonModule } from 'primeng/button';
 import { SplitButtonModule } from 'primeng/splitbutton';
 import { InputTextModule } from 'primeng/inputtext';
 import { FilmesComponent } from './pages/filmes/filmes.component';
+import { HttpClientModule } from '@angular/common/http';
+import { InputFilmeComponent } from './components/input-filme/input-filme.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { DialogService, DynamicDialogModule } from 'primeng/dynamicdialog';
+
+
 
 
 @NgModule({
@@ -18,7 +24,8 @@ import { FilmesComponent } from './pages/filmes/filmes.component';
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    FilmesComponent
+    FilmesComponent,
+    InputFilmeComponent
   ],
 
   imports: [
@@ -27,10 +34,17 @@ import { FilmesComponent } from './pages/filmes/filmes.component';
     AppRoutingModule,
     ButtonModule,
     SplitButtonModule,
-    InputTextModule
+    InputTextModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
+    DynamicDialogModule
   ],
 
-  providers: [],
+  providers: [
+    DialogService,
+    DynamicDialogModule
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
