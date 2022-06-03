@@ -1,8 +1,8 @@
 <h1 align="center">Clone do Streaming Netflix</h1>
 <p align="center">
-    <img src="https://img.shields.io/badge/Angular%20-%23F7DF1E.svg?&style=for-the-badge&color=DD0031" />
-    <img src="https://img.shields.io/badge/Bootstrap%20-%23F7DF1E.svg?&style=for-the-badge&color=7044A3" />
-    <img src="https://img.shields.io/github/repo-size/jefker/netflix_clone?label=typescript&style=for-the-badge=appveyor" />
+    <img src="https://img.shields.io/badge/Angular%20-%23F7DF1E.svg?&style=for-the-badge&color=DD0031"/>
+    <img src="https://img.shields.io/badge/Bootstrap%20-%23F7DF1E.svg?&style=for-the-badge&color=7044A3"/>
+    <img src="https://img.shields.io/badge/Typescript%20-%23F7DF1E.svg?&style=for-the-badge&color=4993C1"/>
 </p>
 
 
