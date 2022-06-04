@@ -1,35 +1,45 @@
+h1, h2, h3{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 18.5px;
+    font-weight: 500;
+}
+
 .background{
-    background: linear-gradient(hsla(0, 0%, 0%, 0.8), hsla(0, 0%, 0%, 0.4), hsla(0, 0%, 0%, 0.8)), url("../../../assets/image/background.jpg");
+    background: linear-gradient(hsla(0, 0%, 0%, 0.8), hsla(0, 0%, 0%, 0.603), hsla(0, 0%, 0%, 0.603), hsla(0, 0%, 0%, 0.8)), url("../../../assets/image/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     width: auto;
     max-width: 100%;
     overflow: hidden;
+    border-bottom: 8px solid #222;
 }
 
 .parte1{
     color: white;
-    font-family: Arial, Helvetica, sans-serif ;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 200px;
 }
 
 .parte1 h1{
-    font-size: 48px;
-    font-weight: 600;
     line-height: 55px;
 }
 
 .parte1 h2{
-    font-size: 26px;
-    font-weight: 500;
     margin: 25px 0px 30px;
-}
-
-.parte1 h3{
-    font-size: 18.5px;
-    font-weight: 500;
 }
 
 .input-group {
@@ -45,8 +55,6 @@
 }
 
 .btn h2{
-    font-size: 26px;
-    font-weight: 500;
     margin: 7px 14px;
 }
 
@@ -62,4 +70,62 @@
 .btn.btn-primary:hover {
     background-color: rgb(214, 0, 0);
     border-color: rgb(214, 0, 0);
+}
+
+.aproveite {
+    color: #ffffff;
+    border-bottom: 8px solid #222;
+    height: 460px;
+}
+
+.container2 {
+    display: flex;
+    max-width: 1100px;
+    position: relative;
+    margin: 0 auto;
+    background: 0 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto {
+    width: 52%;
+    height: 100%;
+    flex: 0 1 auto;
+    padding: 0 3rem 0 0;
+}
+
+.texto h1{
+    line-height: 75px;
+}
+
+.tv img {
+    position: relative;
+    max-width: 100%;
+    height: 397px;
+    margin-bottom: 15px;
+    border: 0;
+}
+
+.eleven img {
+    position: relative;
+    max-width: 100%;
+    height: 397px;
+    margin: 0px 40px 15px 0px;
+    border: 0;
+}
+
+.texto3 {
+    width: 55%;
+    height: 100%;
+    flex: 0 1 auto;
+    padding: 0 3rem 0 0;
+}
+
+
+.tv2 img {
+    position: relative;
+    max-width: 110%;
+    height: auto;
+    border: 0;
 }
