@@ -15,6 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { InputFilmeComponent } from './components/input-filme/input-filme.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DialogService, DynamicDialogModule } from 'primeng/dynamicdialog';
+import { LoginComponent } from './pages/login/login.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { DialogService, DynamicDialogModule } from 'primeng/dynamicdialog';
     HomeComponent,
     HeaderComponent,
     FilmesComponent,
-    InputFilmeComponent
+    InputFilmeComponent,
+    LoginComponent
   ],
 
   imports: [
