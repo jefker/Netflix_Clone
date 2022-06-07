@@ -5,16 +5,14 @@
     <img src="https://img.shields.io/badge/Typescript%20-%23F7DF1E.svg?&style=for-the-badge&color=3C83AF"/>
 </p>
 
-
-<!-- <h2> Objetivo do projeto </h2>
+<h2>Projeto acadêmico desenvolvido para a cadeira de TECNOLOGIAS WEB - UNIESP</h2>
 <ol>
-    <li>Construir um Front em Angular para consumir uma API </li>
-    <li>A aplicação recebe uma listagem de clientes e contas disponíveis </li>
-    <li>O usuário pode adicionar novos clientes </li>
-    <li>O usuário pode editar os dados de clientes </li>
-    <li>O usuário pode deletar os cadastros dos clientes </li>
-    <li>O usuário pode criar novas contas </li>
-    <li>O usuário pode transferir dinheiro entre as contas</li>
-    <li>O usuário pode realizar depósitos em contas existentes</li>
-    <li>O usuário pode realizar saques em contas existentes</li>
-</ol> -->
+    <li>Construimos um Front em Angular para consumir uma API desenvolvida em Java</li>
+    <li>A aplicação recebe uma listagem de filmes e séries disponíveis</li>
+    <li>O usuário pode adicionar novos filmes e séries, editar, deletar eles</li>
+</ol>
+
+<p>Grupo composto por:
+<br>Jefte Kerison de Miranda Mendonça
+<br>Laylla Cristina Silva de Alencar
+<br>Leonardo de Albuquerque Saraiva</p>
