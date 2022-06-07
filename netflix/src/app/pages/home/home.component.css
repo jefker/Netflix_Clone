@@ -1,4 +1,4 @@
-h1, h2, h3{
+h1, h2, h3 {
     font-family: Arial, Helvetica, sans-serif ;
 }
 
@@ -17,7 +17,7 @@ h3 {
     font-weight: 500;
 }
 
-.background{
+.background {
     background: linear-gradient(hsla(0, 0%, 0%, 0.8), hsla(0, 0%, 0%, 0.603), hsla(0, 0%, 0%, 0.603), hsla(0, 0%, 0%, 0.8)), url("../../../assets/image/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +28,7 @@ h3 {
     border-bottom: 8px solid #222;
 }
 
-.parte1{
+.parte1 {
     color: white;
     text-align: center;
     padding-top: 200px;
@@ -76,6 +76,7 @@ h3 {
     color: #ffffff;
     border-bottom: 8px solid #222;
     height: 460px;
+    width: auto;
 }
 
 .container2 {
@@ -100,11 +101,23 @@ h3 {
 }
 
 .tv img {
-    position: relative;
+    width: 98%;
+    height: 370px;
     max-width: 100%;
-    height: 397px;
     margin-bottom: 15px;
+    position: relative;
     border: 0;
+    z-index: 2;
+}
+
+.videogif {
+    width: 70%;
+    height: 100%;
+    max-width: 70%;
+    max-height: 52%;
+    position: absolute;
+    top: 20%;
+    left: 14%
 }
 
 .eleven img {
@@ -122,10 +135,96 @@ h3 {
     padding: 0 3rem 0 0;
 }
 
-
 .tv2 img {
     position: relative;
     max-width: 110%;
     height: auto;
     border: 0;
+    z-index: 2;
+}
+
+.videogif2 {
+    width: 100%;
+    height: 100%;
+    max-width: 70%;
+    max-height: 47%;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+.accordion {
+    display: block;
+    max-width: 815px;
+    margin: 2em auto;
+}
+
+.accordion-button {
+    padding: .8em 2.2em .8em 1.2em;
+    background-color: #303030;
+    color: #ffffff;
+    width: 815px;
+    text-align: left;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #4d4d4d;
+    transition: color 0.5s;
+}
+
+.accordion-button:not(.collapsed) .bi {
+    motion-rotation: 90deg;
+}
+
+.accordion-button h2 {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+.accordion-body h2 {
+    padding: .8em 2.2em .8em 1.2em;
+    color: #ffffff;
+    background-color: #303030;
+}
+
+.aproveite2 {
+    border-bottom: 8px solid #222;
+    padding: 70px 0px
+}
+
+.parte3, .parte4 {
+    color: white;
+    text-align: center;
+}
+
+.parte4 {
+    margin-top: 60px;
+}
+
+.final {
+    color: #757575;
+    border-bottom: 8px solid #222;
+    width: auto;
+    padding: 60px;
+}
+
+.footer2 {
+    padding-top: 20px;
+}
+
+.rodape {
+    display: flex;
+    max-width: 1100px;
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.coluna a {
+    color: #757575;
+    font-size: 13px;
+}
+
+.coluna a:hover {
+    text-decoration: underline;
 }

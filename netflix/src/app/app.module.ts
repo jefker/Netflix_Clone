@@ -17,8 +17,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DialogService, DynamicDialogModule } from 'primeng/dynamicdialog';
 
 
-
-
 @NgModule({
   declarations: [
     AppComponent,
