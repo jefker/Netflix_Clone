@@ -9,10 +9,10 @@
 <ol>
     <li>Construimos um Front em Angular para consumir uma API desenvolvida em Java</li>
     <li>A aplicação recebe uma listagem de filmes e séries disponíveis</li>
-    <li>O usuário pode adicionar novos filmes e séries, editar, deletar eles</li>
+    <li>O usuário pode adicionar, editar, deletar e listar filmes ou séries</li>
 </ol>
 
-<p>Grupo composto por:
+<small>Grupo composto por:
 <br>Jefte Kerison de Miranda Mendonça
 <br>Laylla Cristina Silva de Alencar
-<br>Leonardo de Albuquerque Saraiva</p>
+<br>Leonardo de Albuquerque Saraiva</small>
